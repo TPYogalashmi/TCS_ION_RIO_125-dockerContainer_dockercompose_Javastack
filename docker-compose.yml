@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  one:
+    build:
+      context: ./one
+      dockerfile: Dockerfile
+    image: one
+
+  two:
+    build:
+      context: ./two
+      dockerfile: Dockerfile
+    image: two
