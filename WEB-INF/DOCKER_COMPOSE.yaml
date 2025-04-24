@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  webapp:
+    image: tomcat:9.0
+    container_name: test-rio-webapp
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./TestRIOJavaStack.war:/usr/local/tomcat/webapps/TestRIOJavaStack.war
