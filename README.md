@@ -118,5 +118,5 @@ docker service ls
 docker stack rm javastack
 ```
 
-This enhanced setup allows you to use Docker Swarm for real-time scaling, load balancing, and high availability.
+This enhanced setup allows us to use Docker Swarm for real-time scaling, load balancing, and high availability.
 
